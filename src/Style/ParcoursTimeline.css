@@ -1,0 +1,87 @@
+.timeline-section {
+    padding: 30px 20px;
+    overflow: hidden;
+  }
+  
+  .timeline-title {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  
+  /* Zone scrollable */
+  .timeline-wrapper {
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  
+  /* Ligne horizontale */
+  .timeline {
+    position: relative;
+    display: flex;
+    gap: 80px;
+    padding: 40px 20px;
+    min-width: max-content;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, #555, #999);
+    border-radius: 4px;
+  }
+  
+  /* Élément */
+  .timeline-item {
+    position: relative;
+    min-width: 280px;
+    max-width: 300px;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background: #7d0172;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(0,194,255,.2);
+  }
+  
+  /* Carte */
+  .timeline-content {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 90px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.4);
+    transition: transform .3s ease;
+  }
+  
+  .timeline-content:hover {
+    transform: translateY(-5px);
+  }
+  
+  .timeline-annee {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .timeline-ecole {
+    color: #7d0172;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .timeline-item {
+      min-width: 240px;
+    }
+  }
+  
+  
+  
