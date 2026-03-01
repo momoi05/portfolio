@@ -1,4 +1,4 @@
-import "../Style/ParcoursTimeline.css";
+import "../style/ParcoursTimeline.css";
 
 const parcours = [
   {

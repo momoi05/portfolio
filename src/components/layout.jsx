@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Style/style.css';
+import '../style/style.css';
 import { useLocation, useNavigate } from "react-router-dom";
 
 const pages = [

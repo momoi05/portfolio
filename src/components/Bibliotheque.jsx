@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PdfModal from "./PdfModal";
-import "../Style/Bibliotheque.css";
+import "../style/Bibliotheque.css";
 import clean1 from "../images/4584096.jpg";
 import clean2 from "../images/moi.jpg";
 import clean3 from "../images/azerty.jpg";

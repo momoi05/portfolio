@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/SlantedGrid2.css";
+import "../style/SlantedGrid2.css";
 import Image from "../images/guilde.png"
 
 

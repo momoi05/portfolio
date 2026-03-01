@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/SlantedGrid.css";
+import "../style/SlantedGrid.css";
 import Image from "../images/chibi-tetsuya-kuroko-coloring.png"
 import Image2 from "../images/happy.png"
 import Image3 from "../images/lucy.png"

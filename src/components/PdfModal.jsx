@@ -1,5 +1,5 @@
 import HTMLFlipBook from "react-pageflip";
-import "../Style/Flipbook.css";
+import "../style/Flipbook.css";
 
 export default function FlipbookSinglePageRealistic({ images, titre, onClose }) {
   return (
