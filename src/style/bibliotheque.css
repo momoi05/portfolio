@@ -1,18 +1,18 @@
 /* Conteneur */
 .bibliotheque {
     width: 100%;
-    padding: 2rem;
+    background-image: 
+    repeating-linear-gradient(45deg, rgba(0,0,0,0.3) 0, rgba(0,0,0,0.3) 1px, transparent 1px, transparent 10px);
   }
   
   /* Étagère */
   .etagere {
     display: flex;
     align-items: flex-end;
-    gap: 12px;
-    padding: 1rem;
     border-bottom: 10px solid #3a2a1a;
   box-shadow: 0 6px 0 #000;
   padding-bottom: 0px;
+  padding-top: 4%;
   }
   
   /* Livre */
@@ -29,6 +29,7 @@
     transition: transform 0.2s ease;
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    border-radius: 4px;
   }
 
   .livre::before {

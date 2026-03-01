@@ -140,15 +140,12 @@ export default function ChapitrePage() {
 
       <div className="page-projet">
           <div className="projet-biblio"><div>
-      <h1>Mes projets perso</h1>
       <Bibliotheque livres={perso}/>
     </div>
           <div>
-      <h1>Mes projets d'entreprise</h1>
       <Bibliotheque livres={pro}/>
     </div>
           <div>
-      <h1>Mes Ap</h1>
       <Bibliotheque livres={ap}/>
     </div></div>
       <div className="jsp">

@@ -10,6 +10,14 @@ import clean4 from "../images/chibiK.png"
 export default function Bibliotheque({livres}) {
   const [livreOuvert, setLivreOuvert] = useState(null);
 
+  const handleClick = (livre) => {
+    if (livreOuvert?.id === livre.id) {
+      setLivreOuvert(null); // ferme si déjà ouvert
+    } else {
+      setLivreOuvert(livre); // remplace l'ancien
+    }
+  };
+
   return (
     <>
       <div className="bibliotheque">

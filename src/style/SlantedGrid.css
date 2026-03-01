@@ -5,15 +5,14 @@
 .manga-page {
   font-family: 'Kalam', cursive;
   padding: 40px;
-  background-color: white;
   color: #1a1a1a;
   min-height: 100vh;
   position: relative;
-  
-  /* 1. TEXTURE PAPIER (Grain léger sur toute la page) */
-  background-image: 
-    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAKrVq36z8gAFWAAqghMAMXAQEAAqgYMAA3HCAz4E/z3AAAAAElFTkSuQmCC'), /* Dots d'impression */
-    linear-gradient(#f0f0ee, #fff); /* Couleur vieux papier */
+}
+
+.manga-page p{
+  text-align: left;
+  margin-top: 0;
 }
 
 /* Polices */
@@ -67,7 +66,7 @@
   font-weight: normal;
 }
 
-.panel-body { padding: 20px; flex-grow: 1; }
+.panel-body { padding-left: 20px; flex-grow: 1; }
 .panel-body p { font-size: 1.15rem; width: 68%; line-height: 1.3; }
 
 /* --- 2. LIGNES DE VITESSE (Speed Lines CSS) --- */
@@ -76,20 +75,17 @@
   top: 0; left: 0; width: 100%; height: 100%;
   pointer-events: none;
   z-index: 1;
-  background-image: 
-    repeating-linear-gradient(45deg, rgba(0,0,0,0.3) 0, rgba(0,0,0,0.3) 1px, transparent 1px, transparent 10px);
   opacity: 0.6;
 }
 
 /* --- 4. TRAMES DE POINTS (Screentones) --- */
 .manga-vibe {
-  background-image: radial-gradient(#aaa 1.5px, transparent 1.5px);
   background-size: 8px 8px; /* Trame large pour fond */
 }
 
 .screentone-bg {
-  background-image: radial-gradient(#888 1px, transparent 1px);
-  background-size: 4px 4px; /* Trame fine pour cases du bas */
+  background-image: radial-gradient(#d6d6d6 1.5px, transparent 1.5px);
+  background-size: 8px 8px; /* Trame fine pour cases du bas */
   box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 

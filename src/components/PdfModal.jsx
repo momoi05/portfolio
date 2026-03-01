@@ -1,23 +1,43 @@
+import { useEffect, useRef } from "react";
 import HTMLFlipBook from "react-pageflip";
 import "../style/Flipbook.css";
 
 export default function FlipbookSinglePageRealistic({ images, titre, onClose }) {
-  return (
-    <div className="flipbook-overlay">
-      <div className="flipbook-container">
-        <h2 style={{ paddingBottom: "10px" }}>{titre}</h2>
+  const drawerRef = useRef(null);
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (drawerRef.current && !drawerRef.current.contains(event.target)) {
+        onClose();
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [onClose]);
+  
+  return (
+    <div className="flipbook-drawer">
+      <div className="flipbook-header">
+        <h2>{titre}</h2>
+        <button className="close-btn" onClick={onClose}>✕</button>
+      </div>
+
+      <div className="flipbook-container">
         <HTMLFlipBook
-          width={400}                 // largeur du livre
-          height={500}                // hauteur du livre
-          showCover={true}            // première page = couverture
-          drawShadow={true}           // ombres pour effet réaliste
-          maxShadowOpacity={0.5}      // opacité des ombres
-          flippingTime={700}          // temps du flip en ms
-          usePortrait={false}         // vue paysage
+          width={400}
+          height={500}
+          showCover={true}
+          drawShadow={true}
+          maxShadowOpacity={0.5}
+          flippingTime={700}
+          usePortrait={false}
           startPage={0}
           className="flipbook-react"
-          flipOnClick={true}          // clic pour tourner
+          flipOnClick={true}
         >
           {images.map((img, index) => (
             <div key={index} className="page">
@@ -25,15 +45,10 @@ export default function FlipbookSinglePageRealistic({ images, titre, onClose }) 
                 src={img}
                 alt={`Page ${index + 1}`}
                 className="flip-image"
-                style={{ width: "100%" }}
               />
             </div>
           ))}
         </HTMLFlipBook>
-
-        <button className="close-btn" onClick={onClose}>
-          Fermer
-        </button>
       </div>
     </div>
   );
