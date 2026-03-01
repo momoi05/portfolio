@@ -11,9 +11,8 @@ body {
 .page-layout{
   display: flex;
   flex-direction: row;  
-  align-items: flex-start;
-  width: 96%;
-  padding: 2%;
+  align-items: stretch;
+  padding: 2% 2% 0 2%;
   gap: 2%;
 }
 
@@ -26,7 +25,7 @@ body {
 }
 
 .left-zone {
-  flex: 4; /* ≈ 60% */
+  width: 75%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -53,19 +52,19 @@ body {
 }
 
 /* le rectangle principal */
-.main-character {  
-  flex-grow: 1;
+/* .main-character {  
   background: #fff;
-  border: 4px solid #000;
-  box-shadow: 6px 6px 0 #000;
   height: 500px;
   overflow: hidden;
-}
+} */
 
 /* le rectangle principal */
-.main-character img{    
+.image-moi{    
+  flex-grow: 1;
   align-items: center;
   width: auto;
+  border: 4px solid #000;
+  box-shadow: 6px 6px 0 #000;
   height: 100%;
 }
 
@@ -192,4 +191,33 @@ body {
 
 .jsp{
   width: 100%;
+}
+
+
+.panel{
+  position: relative;
+  width: 350px;
+  border: 2px solid black;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* lignes manga */
+.manga-lines{
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 600px;
+  height: 600px;
+  
+  background: repeating-conic-gradient(
+      rgba(0,0,0,0.25) 0deg,
+      rgba(0,0,0,0.25) 2deg,
+      transparent 2deg,
+      transparent 8deg
+  );
+  mask-image: linear-gradient(to top, black 40%, transparent 100%);
+  border-radius: 50%;
 }

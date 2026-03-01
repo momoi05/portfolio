@@ -18,7 +18,7 @@ export default function ChapitrePage() {
           <h1>LE VOYAGE D'UN ÉTUDIANT BTS SIO SLAM EN 2026</h1>
           <h2>TESSA TARASCHINI</h2>
         </div>
-        <div className="main-character"><img src={Image} alt="moi"/></div>
+        <img src={Image} alt="moi" className="image-moi"/>
       </div>
 
 

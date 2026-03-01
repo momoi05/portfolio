@@ -1,7 +1,8 @@
 import React from "react";
-import "../style/style.css";
+import "../Style/style.css";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/layout";
+import Image from "../images/chibi-tetsuya-kuroko-coloring.png"
 import ParcoursTimeline from "../components/parcoursTimeline";
 import SlantedGrid from "../components/SlantedGrid";
 
