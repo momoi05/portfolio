@@ -1,0 +1,168 @@
+/* Import des polices nécessaires */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kalam:wght@400;700&display=swap');
+
+/* --- GLOBALS --- */
+.manga-page-veille {
+  font-family: 'Kalam', cursive;
+  padding: 40px;
+  color: #1a1a1a;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  gap: 20px
+}
+
+.manga-page-veille p{
+  text-align: left;
+  margin-top: 0;
+}
+
+/* Polices */
+.manga-title-font {
+  font-family: 'Bangers', cursive; /* Style gros titre manga */
+  letter-spacing: 1px;
+}
+
+.heavy-text {
+  font-weight: bold;
+  transform: rotate(-1deg); /* Léger décalage "épuisé" */
+}
+
+/* --- GRILLES --- */
+.manga-grid-top-veille, .manga-grid-bottom-entreprise {
+  display: grid;
+  gap: 20px;
+}
+.manga-grid-top-veille { grid-template-columns: repeat(1, 1fr); }
+.manga-grid-bottom-entreprise {   grid-template-columns: repeat(2, 1fr); }
+
+/* --- 3. BORDURES IMPARFAITES (Inking) --- */
+.live-border {
+  border-style: solid;
+  border-color: #000;
+  border-width: 4px 3px 6px 3px; /* Épaisseurs inégales */
+  border-image: linear-gradient(to bottom right, #000 0%, #000 10%, rgba(0,0,0,0.8) 100%) 1; /* Coup de stylo qui s'estompe */
+  background: #fff;
+}
+
+.manga-panel-veille {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 0px rgba(0,0,0,0.2); /* Ombre portée douce */
+}
+
+/* --- PANNEAU LOISIRS SPECIFIQUES --- */
+.global-title {
+  width: 100%;
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+
+.global-title span {
+  font-size: 2.2rem;
+}
+/* Titres intégrés */
+.panel-title {
+  text-align: center;
+  margin: -20px 0 10px 0;
+  font-family: 'Bangers', cursive;
+}
+.panel-title span {
+  background: white;
+  padding: 0 15px;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.panel-body { padding-left: 20px; flex-grow: 1; }
+.panel-body p { font-size: 1.15rem; width: 90%; line-height: 1.3; }
+
+/* --- 2. LIGNES DE VITESSE (Speed Lines CSS) --- */
+.speed-lines {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+/* --- 4. TRAMES DE POINTS (Screentones) --- */
+.manga-vibe {
+  background-size: 8px 8px; /* Trame large pour fond */
+}
+
+.screentone-bg {
+  background-image: radial-gradient(#d6d6d6 1.5px, transparent 1.5px);
+  background-size: 8px 8px; /* Trame fine pour cases du bas */
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+/* --- DIVISEUR --- */
+.manga-divider {
+  display: flex; align-items: center; margin: 40px 0;
+}
+.divider-line {
+  flex-grow: 1; height: 10px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+.divider-label {
+  padding: 0 30px; font-size: 2.2rem;
+}
+
+/* --- DÉCORATIONS DU BAS --- */
+.panel-date {
+  font-size: 1.3rem; text-align: center;
+  border-bottom: 3px solid #000;
+  margin: 15px 25px 10px 25px;
+  transform: skewX(-5deg); /* Léger décalage dynamique */
+}
+
+.panel-text { padding: 0 20px 20px 20px; font-size: 18px; }
+
+/* Panneaux cliquables du bas avec image */
+.clickable-panel {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.clickable-panel:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease;
+}
+
+.panel-image {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 3px solid #000;
+}
+
+/* Silhouettes du bas */
+.city-silhouette, .character-silhouette {
+  height: 70px; margin-top: auto; border-top: 1px solid #000; opacity: 0.5;
+}
+/* Placeholders pour les silhouettes */
+.city-silhouette { background: linear-gradient(to top, #666, #ccc); }
+.character-silhouette.boy { background: linear-gradient(to top, #333, #666); }
+.character-silhouette.girl { background: linear-gradient(to top, #222, #555); }
+
+/* --- IMAGES & ANIMATIONS --- */
+.manga-char-veille {
+  position: absolute; bottom: 10px; right: 10px; max-width: 200px; z-index: 2;
+}
+
+/* Animations simples pour rendre vivant */
+.speed-up { animation: moveUp 0.3s ease-out; } /* Jump */
+.floats { animation: floating 2s ease-in-out infinite; } /* Float */
+
+@keyframes moveUp { from { bottom: -20px; opacity: 0; } to { bottom: 10px; opacity: 1; } }
+@keyframes floating { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .manga-grid-top-veille, .manga-grid-bottom-entreprise { grid-template-columns: 1fr; }
+  .manga-panel { min-height: auto; margin-bottom: 20px; }
+}

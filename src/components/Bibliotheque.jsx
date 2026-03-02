@@ -26,6 +26,10 @@ export default function Bibliotheque({livres}) {
             <div
               key={livre.id}
               className="livre"
+              style={{
+                width: `${livre.width}px`,
+                height: `${livre.height}px`
+              }}
               onClick={() => setLivreOuvert(livre)}
             >
               <span>{livre.titre}</span>

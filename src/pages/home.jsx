@@ -31,10 +31,10 @@ export default function ChapitrePage() {
 
 
         <nav className="menu">
-          <button onClick={() => navigate('/presentation')}>PRESENTATION</button>
-          <button onClick={() => navigate('/entreprise')}>MON ALTERNANCE</button>
-          <button onClick={() => navigate('/projet')}>MES PROJETS</button>
-          <button onClick={() => navigate('/veille')}>VEILLE</button>
+          <button onClick={() => navigate('/presentation')}>Chapitre 1 : Qui suis-je ????</button>
+          <button onClick={() => navigate('/entreprise')}>Chapitre 2 : Mon alternance</button>
+          <button onClick={() => navigate('/projet')}>Chapitre 3 : Ma bibliothèque de projets</button>
+          <button onClick={() => navigate('/veille')}>Chapitre 4 : Ma veille technologique</button>
         </nav>
       </div>
     </div>

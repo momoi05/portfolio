@@ -13,11 +13,15 @@ const perso = [
   {
     id: 1,
     titre: "BCBC",
+    width: 50,
+    height: 150,
     images: [clean1, clean2, clean3,clean4, clean1, clean2, clean3,clean4],
   },
   {
     id: 2,
     titre: "APE chenes bourg",
+    width: 60,
+    height: 160,
     images: [
         "../images/4584096.jpg",
         "../images/moi.jpg",
@@ -27,32 +31,29 @@ const perso = [
   {
     id: 3,
     titre: "Cahier de recette",
+    width: 80,
+    height: 180,
     images: [
         "../images/4584096.jpg",
         "../images/moi.jpg",
         "../images/azerty.jpg",
       ],
-  },
-  {
-    id: 4,
-    titre: "React pour les null",
-    images: [
-        "/images/clean_code/page1.jpg",
-        "/images/clean_code/page2.jpg",
-        "/images/clean_code/page3.jpg",
-      ],
-  },
+  },  
 ];
 
 const pro = [
   {
     id: 1,
     titre: "Eas",
+    width: 50,
+    height: 190,
     images: [clean1, clean2, clean3,clean4, clean1, clean2, clean3,clean4],
   },
   {
     id: 2,
-    titre: "st",
+    titre: "st /n sia /n Fac",
+    width: 70,
+    height: 180,
     images: [
         "../images/4584096.jpg",
         "../images/moi.jpg",
@@ -62,6 +63,8 @@ const pro = [
   {
     id: 3,
     titre: "alpina",
+    width: 50,
+    height: 190,
     images: [
         "../images/4584096.jpg",
         "../images/moi.jpg",
@@ -71,24 +74,8 @@ const pro = [
   {
     id: 4,
     titre: "aurel",
-    images: [
-        "/images/clean_code/page1.jpg",
-        "/images/clean_code/page2.jpg",
-        "/images/clean_code/page3.jpg",
-      ],
-  },
-  {
-    id: 5,
-    titre: "sia",
-    images: [
-        "/images/clean_code/page1.jpg",
-        "/images/clean_code/page2.jpg",
-        "/images/clean_code/page3.jpg",
-      ],
-  },
-  {
-    id: 6,
-    titre: "fac",
+    width: 40,
+    height: 150,
     images: [
         "/images/clean_code/page1.jpg",
         "/images/clean_code/page2.jpg",
@@ -139,25 +126,35 @@ export default function ChapitrePage() {
       <Header />
 
       <div className="page-projet">
-          <div className="projet-biblio"><div>
-      <Bibliotheque livres={perso}/>
-    </div>
-          <div>
-      <Bibliotheque livres={pro}/>
-    </div>
-          <div>
-      <Bibliotheque livres={ap}/>
-    </div></div>
+          <div className="projet-biblio">
+            <div>
+              <Bibliotheque livres={perso} />
+            </div>
+            <div>
+              <Bibliotheque livres={pro} />
+            </div>
+            <div>
+              <Bibliotheque livres={ap} />
+            </div>
+          </div>
       <div className="jsp">
     <div className="bottom-row">
-<div className="box"><p>Année: 2024 – 2026
-    <br/>BTS SIO Développeur Web
-    <br/>Ecole: Nexa digital school
-    <br/>Spécialité SLAM, développement d'application web</p></div>
-<div className="box" ><p>Annee: 2021 – 2024
+<div className="box">
+  <p>
+    Année : 2024 – 2026
+    <br/>BTS SIO – Développement web
+    <br/>École : Nexa Digital School
+    <br/>Spécialité SLAM, développement d'applications web
+  </p>
+</div>
+<div className="box">
+  <p>
+    Année : 2021 – 2024
     <br/>Baccalauréat général
-    <br/>Ecole: St Joseph
-    <br/>Bac général avec spécialité Maths, Physique, SVT</p></div>
+    <br/>École : Saint-Joseph
+    <br/>Spécialités : Mathématiques, Physique-Chimie, SVT
+  </p>
+</div>
 </div></div>
         </div>
     </>

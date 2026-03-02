@@ -5,9 +5,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 const pages = [
   { id: "/", chap: "COUVERTURE", nom: "" },
   { id: "/presentation", chap: "CHAPITRE 1 :", nom: "QUI SUIS-JE ????" },
-  { id: "/entreprise", chap: "CHAPITRE 3 :", nom: "MON ALTERNANCE" },
-  { id: "/projet", chap: "CHAPITRE 4 :", nom: "MES PROJETS" },
-  { id: "/veille", chap: "CHAPITRE 5 :", nom: "MA VEILLE TECHNOLOGIQUE" },
+  { id: "/entreprise", chap: "CHAPITRE 2 :", nom: "MON ALTERNANCE" },
+  { id: "/projet", chap: "CHAPITRE 3 :", nom: "MA BIBLIOTHÈQUE DE PROJETS" },
+  { id: "/veille", chap: "CHAPITRE 4 :", nom: "MA VEILLE TECHNOLOGIQUE" },
 ];
 
 export default function Header() {

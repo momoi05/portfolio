@@ -58,14 +58,17 @@
   
   .livre:nth-child(odd) {
     height: 170px;
+    width: 100px;
   }
   
   .livre:nth-child(3n) {
     height: 200px;
+    width: 70px;
   }
   
   .livre:nth-child(4n) {
     width: 55px;
+    height: 150px;
   }
   
 

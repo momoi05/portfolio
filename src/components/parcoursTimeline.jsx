@@ -20,14 +20,14 @@ const parcours = [
     annee: "2022",
     titre: "Stage de Seconde en Informatique",
     ecole: "Active Developpement",
-    description: "Stage de seconde à active developpement une  entreprise qui crée des sitesw web. J'ai fait mon rapport de stage en html css"
+    description: "Stage de seconde à Active Développement, une entreprise qui crée des sites web. J'ai rédigé mon rapport de stage en HTML/CSS."
   },
   {
     id: 4,
     annee: "2020",
     titre: "Stage de Troisième en Informatique",
     ecole: "Kéolis Lyon",
-    description: "Stage de découverte de troisième à Kéolis Lyon, une entreprise qui gère le réseau des transport urbain. J'ai observer la maintenance des outils informatiques utiliser"
+    description: "Stage de découverte en troisième à Kéolis Lyon, une entreprise qui gère le réseau de transports urbains. J'ai observé la maintenance des outils informatiques utilisés."
   }
 ];
 

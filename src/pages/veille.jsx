@@ -2,6 +2,7 @@ import React from "react";
 import "../style/style.css";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/layout";
+import SlantedGrid from "../components/SlantedGrid3";
 
 
 export default function ChapitrePage() {
@@ -9,15 +10,7 @@ export default function ChapitrePage() {
   return (
     <>
       <Header />
-
-      <div className="page-layout">
-            <div>
-              <h1>Taraschini Tessa </h1>
-              <h2>Développeuse Web</h2>
-            </div>
-
-          <div className="chapitre-footer">À SUIVRE...</div>
-        </div>
+      <SlantedGrid />
     </>
   );
 }
