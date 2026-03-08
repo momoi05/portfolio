@@ -40,7 +40,7 @@ export default function FlipbookSinglePageRealistic({ images, titre, onClose }) 
           flipOnClick={true}
         >
           {images.map((img, index) => (
-            <div key={index} className="page">
+            <div key={index} className="page-livre">
               <img
                 src={img}
                 alt={`Page ${index + 1}`}

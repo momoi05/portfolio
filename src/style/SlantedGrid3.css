@@ -71,12 +71,12 @@
 .panel-title span {
   background: white;
   padding: 0 15px;
-  font-size: 1.8rem;
+  font-size: 25px;
   font-weight: normal;
 }
 
 .panel-body { padding-left: 20px; flex-grow: 1; }
-.panel-body p { font-size: 1.15rem; width: 90%; line-height: 1.3; }
+.panel-body p { font-size: 1.15rem; width: 90%; line-height: 1.6; }
 
 /* --- 2. LIGNES DE VITESSE (Speed Lines CSS) --- */
 .speed-lines {
@@ -162,7 +162,17 @@
 @keyframes floating { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
 
 /* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .manga-grid-top-veille, .manga-grid-bottom-entreprise { grid-template-columns: 1fr; }
   .manga-panel { min-height: auto; margin-bottom: 20px; }
+  .manga-page-veille{ flex-direction: column;}
+  .manga-char-veille{bottom: 0; right: -40px;}
+  .panel-body p{width: 85%;}
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .manga-char-veille{max-width: 180px;}
+  .panel-body p{width: 80%; font-size: 15px;}
+  .panel-title span {font-size: 20px;}
 }

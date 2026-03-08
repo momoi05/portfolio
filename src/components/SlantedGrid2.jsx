@@ -41,9 +41,9 @@ return (
 <p>Mes missions sont variées et touchent à plusieurs aspects du développement numérique. Elles incluent notamment :
 <br/>- La réalisation de tests fonctionnels sur les applications web et mobiles afin de garantir leur bon fonctionnement avant leur mise en production.
 <br/>- La conception de maquettes (UI/UX) pour des sites web, en lien avec les besoins des clients et les standards de l’expérience utilisateur.
-<br/>- Le développement d’applications mobiles (iOS/Android) et de sites web dynamiques, en utilisant des technologies modernes adaptées aux projets.
+<br/>- Le développement d’applications mobiles (iOS/Android) et de sites web dynamiques, en utilisant des technologies .net telque Blazor, Maui.
 <br/>- La mise à jour d'applications web (changement de version, de langage, de framework, etc.)
-<br/>- La création de sites vitrines
+<br/>- La création de sites vitrines en ASP.net
 <br/>
 <br/>Cette expérience me permet de développer à la fois mes compétences techniques (front-end, back-end, mobile) et ma capacité à m’intégrer dans un environnement professionnel agile.
 </p>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/SlantedGrid.css";
 import ImageBasket from "../images/chibi-tetsuya-kuroko-coloring.png";
-import ImageManga from "../images/happy.png";
+import ImageManga from "../images/happy.webp";
 import ImageInfo from "../images/lucy.png";
 
 export default function SlantedGrid() {
@@ -9,11 +9,22 @@ export default function SlantedGrid() {
     <div className="manga-page live-inking"> {/* Ajout de la texture papier globale */}
       {/* --- SECTION DU HAUT : 3 BLOCS --- */}
       <div className="manga-grid-top">
+      <div className="manga-panel live-border info-vibe">
+          <h2 className="panel-title"><span>− L'informatique −</span></h2>
+          <div className="panel-body">
+            <p>
+              Passionnée par l’informatique, un domaine que j’ai découvert d’abord à travers les jeux vidéo, puis approfondi lors de mes premières expériences en stage.
+              Ce qui m’intéresse particulièrement, c’est la capacité de la technologie à combiner logique, créativité et résolution de problèmes.
+           </p>
+            <img src={ImageInfo} alt="info" className="manga-char lucy" />
+          </div>
+        </div>
+
         <div className="manga-panel live-border">
          <h2 className="panel-title"><span>− Le Sport −</span></h2>
           <div className="panel-body">
             <p>De plus je pratique le basket depuis plusieurs années. Ce sport m’a permis de développer un fort esprit d’équipe, le sens de la communication et la persévérance, des qualités que je transpose aussi dans mes projets informatiques.</p>
-            <img src={ImageBasket} alt="basket" className="manga-char basket speed-up" />
+            <img src={ImageBasket} alt="basket" className="manga-char kuroko " />
           </div>
         </div>
 
@@ -23,19 +34,7 @@ export default function SlantedGrid() {
             <p>Passionnée également par l’univers des mangas, j’ai choisi de construire mon portfolio autour de ce thème, car il reflète à la fois ma personnalité, mon imagination et mon sens du détail.</p>
             <img src={ImageManga} alt="manga" className="manga-char happy floats" />
           </div>
-        </div>
-
-        <div className="manga-panel live-border info-vibe">
-          <h2 className="panel-title"><span>− L'informatique −</span></h2>
-          <div className="panel-body">
-            <p>
-              Passionnée par l’informatique, un domaine que j’ai découvert d’abord à travers les jeux vidéo, puis approfondi lors de mes premières expériences en stage.
-              Ce qui m’intéresse particulièrement, c’est la capacité de la technologie à combiner logique, créativité et résolution de problèmes.
-              Cette curiosité me pousse à apprendre en continu, à expérimenter par moi-même et à sortir de ma zone de confort pour élargir mes compétences.
-            </p>
-            <img src={ImageInfo} alt="info" className="manga-char computer" />
-          </div>
-        </div>
+        </div>       
       </div>
 
       {/* --- DIVISEUR CENTRAL --- */}

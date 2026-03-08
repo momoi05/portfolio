@@ -12,7 +12,7 @@ export default function ChapitrePage() {
         <div style={{
     border: "3px solid #000",
     boxShadow: "6px 6px 0 #000",
-    height: "80px",
+    height: "auto",
     backgroundColor : "#fff"
         }}>
           <h1>LE VOYAGE D'UN ÉTUDIANT BTS SIO SLAM EN 2026</h1>
