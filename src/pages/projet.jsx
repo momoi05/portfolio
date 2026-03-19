@@ -11,7 +11,17 @@ const perso = [
     titre: "BCBC",
     width: 50,
     height: 150,
-    images: [],
+    images:  [    
+      "/bcbc/bcbc.jpg",
+      "/blanc.jpg",
+      "/bcbc/6_page-0001.jpg",
+      "/bcbc/6_page-0002.jpg",
+      "/bcbc/6_page-0003.jpg",
+      "/bcbc/6_page-0004.jpg",
+      "/bcbc/6_page-0005.jpg",
+      "/bcbc/6_page-0006.jpg",
+      "/bcbc/6_page-0007.jpg",
+      "/bcbc/bcbc-fond.jpg",],
   },
   {
     id: 1,
@@ -26,21 +36,27 @@ const perso = [
   },
   {
     id: 2,
-    titre: "Cahier de recette",
+    titre: "Recipedia",
     width: 80,
     height: 180,
-    images: [
-        "../images/4584096.jpg",
-        "../images/moi.jpg",
-        "../images/azerty.jpg",
-      ],
+    images: [    
+      "/recipedia/recipedia.jpg",
+      "/blanc.jpg",
+      "/recipedia/5_page-0001.jpg",
+      "/recipedia/5_page-0002.jpg",
+      "/recipedia/5_page-0003.jpg",
+      "/recipedia/5_page-0004.jpg",
+      "/recipedia/5_page-0005.jpg",
+      "/recipedia/5_page-0006.jpg",
+      "/recipedia/5_page-0007.jpg",
+      "/recipedia/recipedia-fond.jpg",],
   },  
 ];
 
 const pro = [
   {
     id: 0,
-    titre: "Eas",
+    titre: "Easy",
     width: 50,
     height: 190,
     images:   [    
@@ -52,7 +68,7 @@ const pro = [
   },
   {
     id: 1,
-    titre: "st \n sia \n Fac",
+    titre: "sitt \n sia \n Facy",
     width: 70,
     height: 180,
     images: [
@@ -63,7 +79,7 @@ const pro = [
   },
   {
     id: 2,
-    titre: "alpina",
+    titre: "Hotel Alpina",
     width: 50,
     height: 190,
     images: [
@@ -74,7 +90,7 @@ const pro = [
   },
   {
     id: 3,
-    titre: "aurel",
+    titre: "Aurelie",
     width: 40,
     height: 150,
     images: [
@@ -122,7 +138,7 @@ const ap = [
     width: 50,
     height: 170,
     images: [  
-      "/gsb/GSB.jpg",
+      "/gsb2/GSB.jpg",
       "/blanc.jpg",
       "/gsb2/3_page-0001.jpg",
       "/gsb2/3_page-0002.jpg",
@@ -133,18 +149,25 @@ const ap = [
       "/gsb2/3_page-0007.jpg",
       "/gsb2/3_page-0008.jpg",
       "/gsb2/3_page-0009.jpg",
-      "/gsb/GSB4.jpg",],
+      "/josslan/fond.jpg",],
   },
   {
     id: 2,
     titre: "Josslan",
     width: 40,
     height: 140,
-    images: [
-        "../images/4584096.jpg",
-        "../images/moi.jpg",
-        "../images/azerty.jpg",
-      ],
+    images:  [  
+      "/josselan/Josselan.jpg",
+      "/blanc.jpg",
+      "/josslan/4_page-0001.jpg",
+      "/josslan/4_page-0002.jpg",
+      "/josslan/4_page-0003.jpg",
+      "/josslan/4_page-0004.jpg",
+      "/josslan/4_page-0005.jpg",
+      "/josslan/4_page-0006.jpg",
+      "/josslan/4_page-0007.jpg",
+      "/josslan/4_page-0008.jpg",
+      "/josslan/fond.jpg",],
   },
 ];
 

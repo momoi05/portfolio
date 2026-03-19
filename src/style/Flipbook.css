@@ -56,3 +56,13 @@
   align-items: center;
   background: transparent;
   }  
+
+  /* Responsive */
+@media (max-width: 1200px) {
+  .flipbook-drawer {width: 100%;}
+  }
+  
+  /* Responsive */
+  @media (max-width: 800px) {
+  }
+  
