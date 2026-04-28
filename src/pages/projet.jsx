@@ -12,7 +12,7 @@ const perso = [
     width: 50,
     height: 150,
     images:  [    
-      "/bcbc/bcbc.jpg",
+      "/bcbc/bcbc.png",
       "/blanc.jpg",
       "/bcbc/6_page-0001.jpg",
       "/bcbc/6_page-0002.jpg",
@@ -21,7 +21,7 @@ const perso = [
       "/bcbc/6_page-0005.jpg",
       "/bcbc/6_page-0006.jpg",
       "/bcbc/6_page-0007.jpg",
-      "/bcbc/bcbc-fond.jpg",],
+      "/bcbc/bcbc-fond.png",],
   },
   {
     id: 1,
@@ -29,9 +29,17 @@ const perso = [
     width: 60,
     height: 160,
     images: [
-        "../images/4584096.jpg",
-        "../images/moi.jpg",
-        "../images/azerty.jpg",
+      "/chene/0.png",
+      "/blanc.jpg",
+        "/chene/1.jpg",
+        "/chene/2.jpg",
+        "/chene/3.jpg",
+        "/chene/4.jpg",
+        "/chene/5.jpg",
+        "/chene/6.jpg",
+        "/chene/7.jpg",
+        "/chene/8.jpg",
+        "/blanc.jpg",
       ],
   },
   {
@@ -40,7 +48,7 @@ const perso = [
     width: 80,
     height: 180,
     images: [    
-      "/recipedia/recipedia.jpg",
+      "/recipedia/recipedia.png",
       "/blanc.jpg",
       "/recipedia/5_page-0001.jpg",
       "/recipedia/5_page-0002.jpg",
@@ -49,32 +57,29 @@ const perso = [
       "/recipedia/5_page-0005.jpg",
       "/recipedia/5_page-0006.jpg",
       "/recipedia/5_page-0007.jpg",
-      "/recipedia/recipedia-fond.jpg",],
+      "/recipedia/recipedia-fond.png",],
   },  
 ];
 
 const pro = [
-  {
-    id: 0,
-    titre: "Easy",
-    width: 50,
-    height: 190,
-    images:   [    
-      "/gsb/1-images-0.jpg",
-      "/gsb/1-images-1.jpg",
-      "/gsb/1-images-2.jpg",
-      "/gsb/1-images-3.jpg",
-      "/gsb/1-images-4.jpg",],
-  },
   {
     id: 1,
     titre: "sitt \n sia \n Facy",
     width: 70,
     height: 180,
     images: [
-        "../images/4584096.jpg",
-        "../images/moi.jpg",
-        "../images/azerty.jpg",
+      "/maui/0.png",
+      "/blanc.jpg",
+        "/maui/1.jpg",
+        "/maui/2.jpg",
+        "/maui/3.jpg",
+        "/maui/4.jpg",
+        "/maui/5.jpg",
+        "/maui/6.jpg",
+        "/maui/7.jpg",
+        "/maui/8.jpg",
+        "/blanc.jpg",
+        "/0.png",
       ],
   },
   {
@@ -83,9 +88,16 @@ const pro = [
     width: 50,
     height: 190,
     images: [
-        "../images/4584096.jpg",
-        "../images/moi.jpg",
-        "../images/azerty.jpg",
+      "/alpina/0.png",
+        "/blanc.jpg",
+        "/alpina/1.jpg",
+        "/alpina/2.jpg",
+        "/alpina/3.jpg",
+        "/alpina/4.jpg",
+        "/alpina/5.jpg",
+        "/alpina/6.jpg",
+        "/alpina/7.jpg",
+        "/0.png",
       ],
   },
   {
@@ -94,9 +106,16 @@ const pro = [
     width: 40,
     height: 150,
     images: [
-        "/images/clean_code/page1.jpg",
-        "/images/clean_code/page2.jpg",
-        "/images/clean_code/page3.jpg",
+      "/aurelie/0.png",
+      "/blanc.jpg",
+      "/aurelie/1.jpg",
+      "/aurelie/2.jpg",
+      "/aurelie/3.jpg",
+      "/aurelie/4.jpg",
+      "/aurelie/5.jpg",
+      "/aurelie/6.jpg",
+      "/aurelie/7.jpg",
+      "/0.png",
       ],
   },
   {
@@ -105,9 +124,16 @@ const pro = [
     width: 40,
     height: 150,
     images: [
-        "/images/clean_code/page1.jpg",
-        "/images/clean_code/page2.jpg",
-        "/images/clean_code/page3.jpg",
+      "/sav/0.png",
+      "/blanc.jpg",
+      "/sav/1.jpg",
+      "/sav/2.jpg",
+      "/sav/3.jpg",
+      "/sav/4.jpg",
+      "/sav/5.jpg",
+      "/sav/6.jpg",
+      "/sav/7.jpg",
+      "/0.png",
       ],
   },
 ];
@@ -138,7 +164,7 @@ const ap = [
     width: 50,
     height: 170,
     images: [  
-      "/gsb2/GSB.jpg",
+      "/gsb2/GSB.png",
       "/blanc.jpg",
       "/gsb2/3_page-0001.jpg",
       "/gsb2/3_page-0002.jpg",
@@ -149,7 +175,7 @@ const ap = [
       "/gsb2/3_page-0007.jpg",
       "/gsb2/3_page-0008.jpg",
       "/gsb2/3_page-0009.jpg",
-      "/josslan/fond.jpg",],
+      "/josslan/fond.png",],
   },
   {
     id: 2,
@@ -157,7 +183,7 @@ const ap = [
     width: 40,
     height: 140,
     images:  [  
-      "/josselan/Josselan.jpg",
+      "/josslan/home.png",
       "/blanc.jpg",
       "/josslan/4_page-0001.jpg",
       "/josslan/4_page-0002.jpg",
@@ -167,7 +193,7 @@ const ap = [
       "/josslan/4_page-0006.jpg",
       "/josslan/4_page-0007.jpg",
       "/josslan/4_page-0008.jpg",
-      "/josslan/fond.jpg",],
+      "/josslan/fond.png",],
   },
 ];
 
@@ -217,7 +243,7 @@ const projetsGrille = [
     titre: "Sitt",
     images: ap[0].images,
     periode: "À compléter",
-    competences: { gpi: false, rai: false, devweb: false, projet: true, service: true, devpro: true },
+    competences: { gpi: true, rai: true, devweb: false, projet: true, service: true, devpro: true },
   },
   {
     id: "2",
@@ -234,27 +260,19 @@ const projetsGrille = [
     competences: { gpi: false, rai: true, devweb: true, projet: false, service: false, devpro: true },
   },
 
-  // Réalisations en milieu professionnel en cours de seconde année
-  {
-    id: "4",
-    titre: "Easy",
-    images: ap[0].images,
-    periode: "À compléter",
-    competences: { gpi: true, rai: false, devweb: false, projet: false, service: true, devpro: true },
-  },
   {
     id: "1",
     titre: "Sia",
     periode: "À compléter",
     images: pro[0].images,
-    competences: { gpi: false, rai: false, devweb: false, projet: true, service: true, devpro: true },
+    competences: { gpi: true, rai: true, devweb: false, projet: true, service: true, devpro: true },
   },
   {
     id: "1",
     titre: "Fac",
     periode: "À compléter",
     images: pro[1].images,
-    competences: { gpi: false, rai: false, devweb: false, projet: true, service: true, devpro: true },
+    competences: { gpi: true, rai: true, devweb: false, projet: true, service: true, devpro: true },
   },
   {
     id: "5",
@@ -312,6 +330,7 @@ export default function ChapitrePage() {
                       <tr key={projet.id}>
                         <td
                           className={projet.images ? "cell-projet" : undefined}
+                          style={projet.images ? { backgroundColor: "#fff" } : undefined}
                           onClick={() => ouvrirProjet(projet)}
                         >
                           {projet.titre}
