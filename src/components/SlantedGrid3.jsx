@@ -36,19 +36,19 @@ Elle m’a également sensibilisé à l’importance de l’adaptabilité dans u
       <div className="manga-grid-bottom-entreprise">
         {[
           { date: "Git : master devient main", 
-            text: "Git va changer le nom de sa branche par défaut — traditionnellement « master » — pour « main » dans sa version 3.0, prévue pour fin 2026, afin d’adopter un langage plus inclusif.",
+            text: "Git va changer le nom de sa branche par défaut — traditionnellement « master » — pour « main » dans sa version 3.0. Ce type de décision montre comment les outils techniques deviennent aussi des terrains de débat culturel.",
              url: "https://alm.developpez.com/actu/377924/Git-va-changer-le-nom-par-defaut-de-sa-branche-master-en-main-dans-la-version-3-0-prevue-pour-fin-2026-afin-de-promouvoir-un-langage-inclusif-dans-le-contexte-des-changements-sociaux-de-2020/",
              image: Image4 },
           { date: "Cybercriminels & chaînes logistiques", 
-            text: "Les cybercriminels ont désormais pris pour cible les chaînes logistiques : ils piratent les systèmes des transporteurs/fret pour détourner des cargaisons — des produits physiques — et volent chaque année des millions de dollars de marchandises.", 
+            text: "Les cybercriminels ont désormais pris pour cible les chaînes logistiques : ils piratent les systèmes des transporteurs/fret pour détourner des cargaisons — des produits physiques — et volent chaque année des millions de dollars de marchandises. Cela pose la question de la responsabilité des entreprises dans la sécurisation de leurs infrastructures critiques.", 
             url: "https://www.bfmtv.com/tech/cybersecurite/les-cybercriminels-ont-trouve-un-nouveau-terrain-de-jeu-ils-piratent-la-chaine-logistique-et-detournent-pour-des-millions-de-dollars-de-produits-chaque-annee_AV-202512010744.html",
             image: Image5 },
           { date: "Piratage de la plateforme Itelis", 
-            text: "La plateforme Itelis a été victime d’un piratage : les données privées de certains assurés (identité, numéro de sécu, remboursements optiques…) ont été dérobées, ce qui expose les utilisateurs à des risques de phishing.",
+            text: "La plateforme Itelis a été victime d’un piratage : les données privées de certains assurés (identité, numéro de sécu, remboursements optiques…) ont été dérobées, ce qui expose les utilisateurs à des risques de phishing. Au-delà du risque immédiat de phishing, c’est la confiance dans ces plateformes qui est fragilisée.",
              url: "https://www.bfmtv.com/tech/cybersecurite/la-plateforme-itelis-a-ete-victime-d-un-piratage-les-donnees-privees-d-utilisateurs-liees-aux-remboursements-de-frais-d-optique-ont-ete-derobees-attention-aux-campagnes-de-phishing_AV-202511240584.html",
              image: Image6 },
           { date: "DrawDB — éditeur de schémas de bases de données.", 
-            text: "DrawDB est un outil open source dans le navigateur qui permet de faire des diagrammes de bases de données et de générer des scripts SQL facilement.", 
+            text: "DrawDB est un outil open source dans le navigateur qui permet de faire des diagrammes de bases de données et de générer des scripts SQL facilement. Mais comme souvent avec ces outils “simples”, la question se pose : gain de productivité réel ou risque de masquer la complexité des modèles de données ?", 
             url: "https://www.it-connect.fr/drawdb-un-outil-open-source-pour-modeliser-vos-bases-de-donnees/",
             image: Image7 }
         ].map((item, index) => (

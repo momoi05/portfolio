@@ -330,7 +330,7 @@ export default function ChapitrePage() {
                       <tr key={projet.id}>
                         <td
                           className={projet.images ? "cell-projet" : undefined}
-                          style={projet.images ? { backgroundColor: "#fff" } : undefined}
+                          style={projet.images ? { backgroundColor: "#fff" , textDecoration: "underline"} : undefined}
                           onClick={() => ouvrirProjet(projet)}
                         >
                           {projet.titre}
