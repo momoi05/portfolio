@@ -40,7 +40,7 @@ Elle m’a également sensibilisé à l’importance de l’adaptabilité dans u
              url: "https://alm.developpez.com/actu/377924/Git-va-changer-le-nom-par-defaut-de-sa-branche-master-en-main-dans-la-version-3-0-prevue-pour-fin-2026-afin-de-promouvoir-un-langage-inclusif-dans-le-contexte-des-changements-sociaux-de-2020/",
              image: Image4 },
           { date: "Cybercriminels & chaînes logistiques", 
-            text: "Les cybercriminels ont désormais pris pour cible les chaînes logistiques : ils piratent les systèmes des transporteurs/fret pour détourner des cargaisons — des produits physiques — et volent chaque année des millions de dollars de marchandises. Cela pose la question de la responsabilité des entreprises dans la sécurisation de leurs infrastructures critiques.", 
+            text: "Les cybercriminels ont désormais pris pour cible les chaînes logistiques : ils piratent les systèmes des transporteurs/fret pour détourner des cargaisons. Cela pose la question de la responsabilité des entreprises dans la sécurisation de leurs infrastructures critiques.", 
             url: "https://www.bfmtv.com/tech/cybersecurite/les-cybercriminels-ont-trouve-un-nouveau-terrain-de-jeu-ils-piratent-la-chaine-logistique-et-detournent-pour-des-millions-de-dollars-de-produits-chaque-annee_AV-202512010744.html",
             image: Image5 },
           { date: "Piratage de la plateforme Itelis", 
