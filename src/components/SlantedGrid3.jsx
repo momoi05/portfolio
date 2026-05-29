@@ -35,9 +35,9 @@ Elle m’a également sensibilisé à l’importance de l’adaptabilité dans u
       {/* --- SECTION DE DROITE : 4 BLOCS tramés --- */}
       <div className="manga-grid-bottom-entreprise">
         {[
-          { date: "Git : master devient main", 
-            text: "Git va changer le nom de sa branche par défaut — traditionnellement « master » — pour « main » dans sa version 3.0. Ce type de décision montre comment les outils techniques deviennent aussi des terrains de débat culturel.",
-             url: "https://alm.developpez.com/actu/377924/Git-va-changer-le-nom-par-defaut-de-sa-branche-master-en-main-dans-la-version-3-0-prevue-pour-fin-2026-afin-de-promouvoir-un-langage-inclusif-dans-le-contexte-des-changements-sociaux-de-2020/",
+          { date: "Rust sauvera Linux de lia — ZDNet", 
+            text: "L’article défend l’idée que l’intégration de Rust dans Linux pourrait limiter les bugs amplifiés par les contributions générées par IA grâce à sa sécurité mémoire, mais il sous-estime les tensions humaines, la dette historique du noyau et le fait que l’IA améliore aussi déjà la maintenance du code C existant.",
+             url: "https://www.zdnet.fr/actualites/rust-sauvera-linux-de-lia-affirme-le-responsable-de-la-maintenance-du-noyau-495666.htm",
              image: Image4 },
           { date: "Cybercriminels & chaînes logistiques", 
             text: "Les cybercriminels ont désormais pris pour cible les chaînes logistiques : ils piratent les systèmes des transporteurs/fret pour détourner des cargaisons. Cela pose la question de la responsabilité des entreprises dans la sécurisation de leurs infrastructures critiques.", 
