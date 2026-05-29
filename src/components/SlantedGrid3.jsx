@@ -2,7 +2,7 @@ import React from "react";
 import "../style/SlantedGrid3.css";
 import Image4 from "../images/article-4.png";
 import Image5 from "../images/article-5.png";
-import Image6 from "../images/article-6.png";
+import Image6 from "../images/image6.webp";
 import Image7 from "../images/article-7.webp";
 import ImageLevy from "../images/chibi-levy.png"
 
